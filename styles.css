@@ -1,0 +1,49 @@
+#board {
+    padding-top: 3em;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+/* all 9 cells */
+.row > div {
+    float: left;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 75px;
+}
+
+.row {
+    clear:both;
+    margin: auto;
+    width: 302px;
+}
+
+.top {
+    border-bottom: 1px black solid;
+}
+
+.bottom {
+    border-top: 1px black solid;
+}
+
+.left {
+    border-right: 1px black solid;
+}
+
+.right {
+    border-left: 1px black solid;
+}
+
+#message {
+    position: relative;
+    right: 9.5em;
+    top: 6em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+h1 {
+    text-decoration: underline 3px;
+}
